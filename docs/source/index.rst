@@ -105,5 +105,19 @@ Setup an android emulator (Andriod Studio) or use an Android device plugged or i
 
 
 Main Components
-----------------
+===============
+We have several main components:
+------------------
+- Login system
+- Main Menu
+- Study
+- Quiz
+- Leaderboard
+
+The user starts by either logging in or signing up in our system. If they log in, their data is stored in our Postgres cloud database, or they can input their details to create a new account. This process is quick and user-friendly. Once logged in, the user is directed to the Main Menu screen, which offers several options. One option is the Study mode, our simplest game mode. Here, users are given a question and must choose the correct answer from four possibilities. A correct answer prompts a congratulatory message, while an incorrect one triggers a notification of their error. This interactive feedback is designed to keep the user engaged and learning.
+
+After completing Study mode, users can move on to Quiz mode. This mode follows the same format but includes tracking of correct answers and scoring. After ten correct answers, users advance to the next level, from Level 1 (the easiest) to Level 5 (the hardest). They receive a score for that session and a total score that accumulates over time. This scoring system motivates users to improve their performance over time.
+Their overall score is recorded in the database and displayed on the Leaderboard, which shows the user's total score alongside the top ten users on the app. The Leaderboard is not just a tool for recognition but also sparks competitiveness among users, encouraging them to do better and climb the rankings.
+
+
 
