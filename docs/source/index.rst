@@ -10,7 +10,17 @@ Link to code via Github: https://github.com/SETAP-Speakeasy/Coursework
 
 Our Scope
 --------
-We wanted to create a simple language learning app, that would be user friendly and easy to use.
+We aimed to develop a user-friendly language learning app that caters to learners of varying proficiency levels. Initially, we envisioned an adaptable platform that would offer a personalized learning experience by adjusting to each user's unique needs. Our initial vision included several ambitious features:
+
+- Adaptive difficulty that responds to user performance, emphasizing improvement areas while reinforcing strengths.
+- Speech recognition for enhancing pronunciation.
+- Instant definitions for selected words or phrases.
+- Integration of various APIs for accurate translations across languages.
+- Gamification elements like a leaderboard, streak system, and mini-games.
+- A communication feature to connect users with others learning the same language or bilingual speakers.
+
+Over time, we've scaled back our ambitions to more achievable goals, implementing a simplified version of our original plan. We have successfully integrated gamification through leaderboard and streak systems. Although our initial concept was complex and resource heavy, our final program offers essential functionality with a clean design and maintainable architecture, allowing for future development.
+
 
 Our user requirements
 ---------------------
@@ -46,10 +56,19 @@ Users wanted to have their difficulty adjust to how well they’re doing, if par
 --NOTE NOT SOME OF THESE REQUIREMENTS HAVE CHANGED SINCE THE FIRST SUBMISSION DUE TO SCOPE, TIME AND RESOURCES.
 
 Elements of implementation
--------------------------
+-------------------
+This is how code architecture is setup 
 
+assets/images - used to store images and assets
 
+lib 
+ - database - ( createtables.sql, droptables.sql, insert.sql, queries.sql) - names    are self explanatory of what they do.
 
+- screens - (exportScreens.dart - used to export screens instead of importing them helps with readablitity, LeaderboardPage.dart - logic for displaying usernames score and place in global leaderboard, LearnScreen.dart - logic for the page where chooses between quiz and study  , LoginScreen.dart - handles login and sign up screens and backend, MenuScreen.dart - landing page of our app, QuizScreen.dart - quiz screen, game mode user chooses, this one tests the user on their knowledge from them to get a score for the leaderboard and so they can advance through the ranks, SettingsPage.dart- basic settings page(NO FUNCTIONALITY), StudyScreen.dart - this is another screen for the gamemode that helps user with questions) 
+
+- globals.dart - all our global variables
+
+- main.dart - used to run our code
 
 How to set up
 --------------
