@@ -59,15 +59,15 @@ Elements of Implementation
 ==========================
 This section outlines the code architecture setup:
 
-assets/images
+Assets/images
 -------------
 Used to store images and other assets.
 
-lib
+Lib
 ---
 This directory includes several subdirectories and files:
 
-database
+Database
 ^^^^^^^^
 Contains SQL scripts:
 - ``createtables.sql``: Script to create tables.
@@ -75,7 +75,7 @@ Contains SQL scripts:
 - ``insert.sql``: Script for inserting data.
 - ``queries.sql``: Script containing SQL queries.
 
-screens
+Screens
 ^^^^^^^
 Contains Dart files for different screens in the application:
 - ``exportScreens.dart``: Manages screen exports for better readability.
@@ -87,11 +87,11 @@ Contains Dart files for different screens in the application:
 - ``SettingsPage.dart``: Provides a basic settings page (currently without functionality).
 - ``StudyScreen.dart``: Another game mode screen that assists users with questions.
 
-globals.dart
+Globals.dart
 ^^^^^^^^^^^^
 Contains definitions for all global variables used across the application.
 
-main.dart
+Main.dart
 ^^^^^^^^^
 The primary script used to run the application.
 
