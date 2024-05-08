@@ -102,13 +102,13 @@ Windows
 ^^^^^^^
 To start, download Dart: https://dart.dev/get-dart
 Then, flutter: https://docs.flutter.dev/get-started/install
-Setup an android emulator (Andriod Studio) or use an Android device plugged or in any IDE, and use the "run feature" in any of these to run the program
+Setup an android emulator (Android Studio) or use an Android device plugged or in any IDE, and use the "run feature" in any of these to run the program
 
-Linux
-^^^^^^^
+Arch Linux
+^^^^^
 To start, download Dart: ``pacman -S dart``
 Then, flutter: ``pacman -S flutter``
-Setup an android emulator (Andriod Studio) or use an Android device plugged or in any IDE, and use the "run feature" in any of these to run the program
+Setup an android emulator (Android Studio, android-studio on the AUR) or use an Android device plugged or in any IDE, and use the "run feature" in any of these to run the program
 
 
 
