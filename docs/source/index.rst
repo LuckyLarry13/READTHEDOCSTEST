@@ -98,8 +98,16 @@ The primary script used to run the application.
 
 How to set up
 ------------
+Windows
+^^^^^^^
 To start, download Dart: https://dart.dev/get-dart
 Then, flutter: https://docs.flutter.dev/get-started/install
+Setup an android emulator (Andriod Studio) or use an Android device plugged or in any IDE, and use the "run feature" in any of these to run the program
+
+Linux
+^^^^^^^
+To start, download Dart: ``pacman -S dart``
+Then, flutter: ``pacman -S flutter``
 Setup an android emulator (Andriod Studio) or use an Android device plugged or in any IDE, and use the "run feature" in any of these to run the program
 
 
