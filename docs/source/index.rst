@@ -108,7 +108,7 @@ Arch Linux
 ^^^^^
 To start, download Dart: ``pacman -S dart``
 Then, flutter: ``pacman -S flutter``
-Setup an android emulator (Android Studio, android-studio on the AUR) or use an Android device plugged or in any IDE, and use the "run feature" in any of these to run the program
+Setup an android emulator (Android Studio: https://aur.archlinux.org/android-studio.git) or use an Android device plugged or in any IDE, and use the "run feature" in any of these to run the program
 
 
 
