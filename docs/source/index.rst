@@ -55,23 +55,49 @@ Users wanted to have their difficulty adjust to how well they’re doing, if par
 
 --NOTE NOT SOME OF THESE REQUIREMENTS HAVE CHANGED SINCE THE FIRST SUBMISSION DUE TO SCOPE, TIME AND RESOURCES.
 
-Elements of implementation
--------------------
-This is how code architecture is setup 
+Elements of Implementation
+==========================
+This section outlines the code architecture setup:
 
-assets/images - used to store images and assets
+assets/images
+-------------
+Used to store images and other assets.
 
-lib 
- - database - ( createtables.sql, droptables.sql, insert.sql, queries.sql) - names    are self explanatory of what they do.
+lib
+---
+This directory includes several subdirectories and files:
 
-- screens - (exportScreens.dart - used to export screens instead of importing them helps with readablitity, LeaderboardPage.dart - logic for displaying usernames score and place in global leaderboard, LearnScreen.dart - logic for the page where chooses between quiz and study  , LoginScreen.dart - handles login and sign up screens and backend, MenuScreen.dart - landing page of our app, QuizScreen.dart - quiz screen, game mode user chooses, this one tests the user on their knowledge from them to get a score for the leaderboard and so they can advance through the ranks, SettingsPage.dart- basic settings page(NO FUNCTIONALITY), StudyScreen.dart - this is another screen for the gamemode that helps user with questions) 
+database
+^^^^^^^^
+Contains SQL scripts:
+- ``createtables.sql``: Script to create tables.
+- ``droptables.sql``: Script to drop tables.
+- ``insert.sql``: Script for inserting data.
+- ``queries.sql``: Script containing SQL queries.
 
-- globals.dart - all our global variables
+screens
+^^^^^^^
+Contains Dart files for different screens in the application:
+- ``exportScreens.dart``: Manages screen exports for better readability.
+- ``LeaderboardPage.dart``: Displays the global leaderboard with usernames, scores, and rankings.
+- ``LearnScreen.dart``: Offers a choice between quiz and study modes.
+- ``LoginScreen.dart``: Manages login and sign-up processes, including backend interactions.
+- ``MenuScreen.dart``: Serves as the landing page of the application.
+- ``QuizScreen.dart``: Hosts the quiz mode where users test their knowledge to score points and advance in ranks.
+- ``SettingsPage.dart``: Provides a basic settings page (currently without functionality).
+- ``StudyScreen.dart``: Another game mode screen that assists users with questions.
 
-- main.dart - used to run our code
+globals.dart
+^^^^^^^^^^^^
+Contains definitions for all global variables used across the application.
+
+main.dart
+^^^^^^^^^
+The primary script used to run the application.
+
 
 How to set up
---------------
+------------
 To start, download Dart: https://dart.dev/get-dart
 Then, flutter: https://docs.flutter.dev/get-started/install
 Setup an android emulator (Andriod Studio) or use an Android device plugged or in any IDE, and use the "run feature" in any of these to run the program
