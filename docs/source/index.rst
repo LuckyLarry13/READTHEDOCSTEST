@@ -9,7 +9,7 @@ Link to code via Github: https://github.com/SETAP-Speakeasy/Coursework
    This project is under active development.
 
 Our Scope
---------
+=============
 We aimed to develop a user-friendly language learning app that caters to learners of varying proficiency levels. Initially, we envisioned an adaptable platform that would offer a personalized learning experience by adjusting to each user's unique needs. Our initial vision included several ambitious features:
 
 - Adaptive difficulty that responds to user performance, emphasizing improvement areas while reinforcing strengths.
@@ -23,7 +23,7 @@ Over time, we've scaled back our ambitions to more achievable goals, implementin
 
 
 Our user requirements
----------------------
+===========================
 Gamification
 Users want several learning modes to be able to choose the way in which they learn.
 
@@ -97,7 +97,7 @@ The primary script used to run the application.
 
 
 How to set up
-------------
+===================
 Windows
 ^^^^^^^
 To start, download Dart: https://dart.dev/get-dart
